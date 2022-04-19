@@ -1,0 +1,14 @@
+
+
+.f-wrapper-height {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.f-l-sidebar {
+  width: 250px;
+}
+
+.f-r-sidebar {
+  width: 250px;
+}
