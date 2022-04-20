@@ -16,9 +16,94 @@
   <body class="bg-primary">
     <div class="container d-flex bg-success f-wrapper-height">
 
-      <div class="bg-danger f-l-sidebar f-wrapper-height">column 1</div>
-      <div class="flex-fill bg-light">column 2</div>
-      <div class="bg-info f-r-sidebar">column 3</div>
+<!-- Left column -->
+
+      <div class="bg-danger f-l-sidebar f-wrapper-height">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+          </div>
+        </nav>
+
+        <ul class="nav flex-column m-3">
+          <li class="nav-item">
+            <h5><a class="nav-link text-dark f-nav-link" href="#">Active</a></h5>
+          </li>
+          <li class="nav-item">
+            <h5><a class="nav-link text-dark f-nav-link" href="#">Link</a></h5>
+          </li>
+          <li class="nav-item">
+            <h5><a class="nav-link text-dark f-nav-link" href="#">Dropdown</a></h5>
+          </li>
+          <li class="nav-item dropdown">
+            <h5><a class="nav-link text-dark f-nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Dropdown link</a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul></h5>
+          </li>
+        </ul>
+
+      </div>
+
+<!-- Center Column -->
+
+      <div class="flex-fill bg-light f-center">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="card m-3">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
+<!-- Right Column -->
+      <div class="bg-info f-r-sidebar">
+
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+        <div class="card m-3">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+
+      </div>
 
     </div> <!-- End Main Container -->
 

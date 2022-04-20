@@ -12,3 +12,22 @@
 .f-r-sidebar {
   width: 250px;
 }
+
+.f-center {
+  border-left: solid;
+  border-right: solid;
+  border-color: lightgrey;
+  border-width: 0px 1px;
+}
+
+.f-nav-link {
+  border-radius: 30px;
+  border-width: 1px;
+  color: inherit;
+  
+}
+
+.f-nav-link:hover {
+  background-color: lightgrey;
+  color: white;
+}
