@@ -6,7 +6,7 @@
 }
 
 .f-l-sidebar {
-  width: 250px;
+  width: 250px; 
 }
 
 .f-r-sidebar {
@@ -24,7 +24,7 @@
   border-radius: 30px;
   border-width: 1px;
   color: inherit;
-  
+
 }
 
 .f-nav-link:hover {
