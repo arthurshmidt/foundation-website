@@ -13,6 +13,10 @@
   width: 250px;
 }
 
+.f-r-card {
+  background-color: whitesmoke;
+}
+
 .f-center {
   border-left: solid;
   border-right: solid;
